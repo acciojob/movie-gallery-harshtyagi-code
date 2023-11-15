@@ -1,2 +1,21 @@
+.column {
+  float: left;
+  width: 8.33%;
+  padding: 5px;
+}
 
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 8.33%;
+  padding: 5px;
+}
 /* Your CSS Code here. */
