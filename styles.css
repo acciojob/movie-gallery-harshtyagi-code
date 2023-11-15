@@ -1,4 +1,4 @@
-.column {
+.col-sm-1,.col-sm-2,.col-sm-4,.col-sm-12 {
   float: left;
   width: 8.33%;
   padding: 5px;
@@ -10,7 +10,7 @@
   clear: both;
   display: table;
 }
-.col-sm-1,.col-sm-2,.col-sm-4,.col-sm-12 {
+.row{
   display: flex;
 }
 
